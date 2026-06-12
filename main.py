@@ -1,22 +1,3 @@
-"""
-Hangman Game
--------------
-Goal: A text-based Hangman game where the player guesses a word one letter at a time.
-
-Simplified Scope:
-- 5 predefined words
-- 6 incorrect guesses allowed
-- Basic console input/output
-
-Extra Features:
-- Hint system: reveal a random unguessed letter (costs 1 wrong guess)
-- Score tracking: points based on remaining guesses, saved across sessions
-
-Key Concepts: random, while loop, if-else, strings, lists, file handling
-
-Usage:
-  Run: python main.py
-"""
 
 import random
 import os
